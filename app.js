@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-app.get('/', (req, res) => res.send('Je suis un devOps !!! Terminé, chui un goat!!!!!! \n instant'));
+app.get('/', (req, res) => res.send('Je suis un devOps !!! Terminé, chui un goat!!!!!! \n instant LARAVEL GERE '));
 
 app.listen(port);
 console.log(`App -marche- running on http://localhost:${port}`);
